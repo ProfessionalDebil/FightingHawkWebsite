@@ -1,0 +1,35 @@
+.navbar {
+    overflow: hidden;
+    background-color: #161627;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+#navbar-home-image {
+    width: 40px;
+    height: 40px;
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 14px 16px;
+    height: 40px;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    background-color: #BDBDFF;
+    color: #000000;
+}
+
+.contentroot {
+    margin-top: 45px;
+}
+
+.navbar .navbar-home {
+    background-color: #20CFFF;
+}
