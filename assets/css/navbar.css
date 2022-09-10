@@ -4,6 +4,7 @@
     position: fixed;
     top: 0;
     width: 100%;
+    font-family: Arial, sans-serif;
 }
 
 #navbar-home-image {
@@ -13,12 +14,13 @@
 
 .navbar a {
     float: left;
-    display: block;
     color: #FFFFFF;
-    text-align: center;
     padding: 14px 16px;
     height: 40px;
+    display: flex;
+    align-items: center;
     text-decoration: none;
+    font-size: 23px;
 }
 
 .navbar a:hover {

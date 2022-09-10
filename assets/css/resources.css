@@ -1,0 +1,27 @@
+.resource-list {
+    list-style-type: none;
+}
+
+.resource-list li {
+    margin: 5px;
+    height: 76px;
+    width: 90%;
+    background-color: #353535;
+    display: inline-block;
+}
+
+.resource-list p {
+    font-family: Arial, sans-serif;
+    font-size: 23px;
+    padding-left: 10px;
+    vertical-align: top;
+    display: inline-block;
+}
+
+.resource-list img {
+    height: 64px;
+    width: auto;
+    margin: 0 auto;
+    padding-left: 6px;
+    padding-top: 6px;
+}
