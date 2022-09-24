@@ -1,0 +1,36 @@
+.listhandler {
+    list-style-type: none;
+    font-family: sans-serif;
+    color: #000000;
+    margin-right: 50px;
+    margin-left: 20px;
+}
+
+.listhandler li {
+    padding: 3px 5px 3px 5px;
+}
+
+.listhandler li:not(:last-child) {
+    margin-bottom: 10px;
+}
+
+.devlogtimestamp {
+    text-align:right;
+    margin-right: 15px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+
+.devlogcontent {
+    margin-top: 5px;
+    margin-bottom: 9px;
+    font-size: 20px;
+}
+
+.devlogeven {
+    background-color: #B6C9D4;
+}
+
+.devlogodd {
+    background-color: #6B7A8A;
+}
