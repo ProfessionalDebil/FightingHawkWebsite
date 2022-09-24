@@ -1,12 +1,11 @@
 var listhandler = document.getElementById("listhandler");
 
 for (var log in devlogData) {
-    var currentLog = devlogData[log]
-    console.log(currentLog[0] + "/" + currentLog[1] + "/" + currentLog[2] + ": " + currentLog[3]);
+    let currentLog = devlogData[log];
     
-    var li = document.createElement("li");
-    var timestamp = document.createElement("p");
-    var content = document.createElement("p");
+    let li = document.createElement("li");
+    let timestamp = document.createElement("p");
+    let content = document.createElement("p");
     
     timestamp.innerText = currentLog[0] + "/" + currentLog[1] + "/" + currentLog[2];
     content.innerText = currentLog[3];

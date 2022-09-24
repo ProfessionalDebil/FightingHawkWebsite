@@ -1,3 +1,5 @@
 devlogData = [
-    ["24", "09", "2022", "Factory Sim now has a devlog"]
+    ["24", "09", "2022", "Factory Sim website now has a devlog", "3"]
 ];
+
+devlogCategories = ["Updates", "Development", "Website", "Plans", "Miscellaneous"];
