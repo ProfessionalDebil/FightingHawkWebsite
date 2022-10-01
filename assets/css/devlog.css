@@ -14,17 +14,48 @@
     margin-bottom: 10px;
 }
 
+.tagholder {
+    margin-left: 5px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    padding-right: 150px;
+    display: flex;
+    column-gap: 3px;
+}
+
+.toppart {
+    display: flex;
+    justify-content: space-between;
+}
+
 .devlogtimestamp {
     text-align:right;
     margin-right: 15px;
     margin-top: 3px;
     margin-bottom: 3px;
+    font-size: 20px;
+}
+
+.devlogtag {
+    background-color: #0a3136;
+    border-radius: 5px;
+    padding: 3px 5px 3px 5px;
+    padding-top: 3px;
+    color: #ffffff;
+    text-decoration: none;
 }
 
 .devlogcontent {
     margin-top: 5px;
     margin-bottom: 9px;
-    font-size: 20px;
+    margin-left: 5px;
+    font-size: 22px;
+}
+
+.devlogcaption {
+    margin-left: 7px;
+    margin-top: 3px;
+    font-size: 16px;
 }
 
 .devlogeven {
@@ -33,4 +64,9 @@
 
 .devlogodd {
     background-color: #6B7A8A;
+}
+
+.tagholder p {
+    margin-top: 0px;
+    margin-bottom: 0px;
 }

@@ -1,5 +1,6 @@
 devlogData = [
-    ["24", "09", "2022", "Factory Sim website now has a devlog", "3"]
+    ["24", "09", "2022", [2], "Factory Sim website now has a devlog", "Devlog will be used to log the development of the game and the website"],
+    ["1", "10", "2022", [5], "New factory and resources", "New factory: Spice Plantation\nNew resource: Spice and Gasoline"]
 ];
 
-devlogCategories = ["Updates", "Development", "Website", "Plans", "Miscellaneous"];
+devlogCategories = ["Updates", "Development", "Website", "Plans", "Miscellaneous", "New Stuffs"];
