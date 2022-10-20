@@ -10,8 +10,10 @@ var devlogCategory = params.fox; // kon kon
 
 let addedLogs = 0;
 
+var reversed = devlogData.reverse();
+
 for (let log in devlogData) { 
-    let currentLog = devlogData[log];
+    let currentLog = reversed[log];
 
     if (devlogCategory != null && !currentLog[3].includes(Number(devlogCategory))) {
         continue;
