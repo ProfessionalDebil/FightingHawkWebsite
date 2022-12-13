@@ -5,11 +5,11 @@
         <title>Home - Factory Simulator</title>
 		
         <link rel="stylesheet" href="assets/css/navbar.css">
-        <link rel="stylesheet" href="assets/css/index.css">
         <link rel="stylesheet" href="assets/css/master.css">
         <link rel="icon" href="assets/images/favicon.png">
 		
         <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+        <script type="text/javascript" src="assets/json/redeem.json"></script>
 		<meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
         
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -18,12 +18,6 @@
         <meta name="author" content="Professional Debil">
         <meta name="description" content="Factory Sim website">
         <meta name="keywords" content="Factory Simulator, Factory Sim">
-        <meta property="og:title" content="Factory Sim website"> <!--Short title of your website-->
-        <meta property="og:url" content="https://professionaldebil.github.io/FactorySim/"> <!--Full link-->
-        <meta property="og:description" content="description of your website/webpage"> <!--Description of website-->
-        <meta property="og:image" content="assets/images/image_300x200.png" /> <!--Image for website, keep lower than 300kb, minimum 300x200-->
-        <meta property="og:locale" content="en_GB"/> <!--Language, og:locale:alternate for other languages-->
-        <meta property="og:site_name" content="Factory Sim Web"> <!--Overall site name-->>
     </head>
     <body>	
         <div class="navbar">
@@ -34,11 +28,12 @@
         </div>
         
         <div class="contentroot">
-            <p>This is the official website for the in development simulator game, Factory Simulator (name is subject to change) made by ProfessionalDebil</p>
+            <input type="text" value="Enter here" id="codeTextArea">
+            <input type="submit" value="Enter" id="codeSubmit">
 
-            <a href="redeem.html">Click this link to redeem your code for a copy of the game!</a>
-        </div>
+            <p id="response"></p>
+            </div>
         
-        <script type="text/javascript" src="assets/js/index.js"></script>
+        <script type="text/javascript" src="assets/js/redeem.js"></script>
     </body>
 </html>
