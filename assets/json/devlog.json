@@ -1,7 +1,8 @@
 devlogData = [
-    ["24", "09", "2022", [2], "Factory Sim website now has a devlog", "Devlog will be used to log the development of the game and the website"],
-    ["1", "10", "2022", [5], "New factory and resources", "New factory: Spice Plantation\nNew resource: Spice and Gasoline"],
-    ["20", "10", "2022", [0], "Dev Branch 1.6", "Factory Management Panel is now usable\nUpdate to Factory Info Panel"]
+    ["24", "09", "2022", [2], "Factory Sim website now has a devlog", "Devlog will be used to log the development of the game and the website."],
+    ["1", "10", "2022", [5], "New factory and resources", "New factory: Spice Plantation\nNew resource: Spice and Gasoline."],
+    ["20", "10", "2022", [0], "Dev Branch 1.6", "Factory Management Panel is now usable\nUpdate to Factory Info Panel."],
+    ["22", "11", "2022", [5], "New factories", "New factory: Oil Well and Bakery. The bakery image is still placeholder."]
 ];
 
 devlogCategories = ["Updates", "Development", "Website", "Plans", "Miscellaneous", "New Stuffs"];
