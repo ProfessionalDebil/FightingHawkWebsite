@@ -1,8 +1,6 @@
 devlogData = [
-    ["24", "09", "2022", [2], "Factory Sim website now has a devlog", "Devlog will be used to log the development of the game and the website."],
-    ["1", "10", "2022", [5], "New factory and resources", "New factory: Spice Plantation\nNew resource: Spice and Gasoline."],
-    ["20", "10", "2022", [0], "Dev Branch 1.6", "Factory Management Panel is now usable\nUpdate to Factory Info Panel."],
-    ["22", "11", "2022", [5], "New factories", "New factory: Oil Well and Bakery. The bakery image is still placeholder."]
+    ["4", "7", "2024", [2], "Fighting Hawk website is on air!", "This website will contain infos and mostly devblogs"],
+    ["4", "7", "2024", [0], "Custom Loadout is here!", "Now, by pressing L, you can open the loadout window and customize your loadout. Make your sortie more effective with this tool\n\nNow I'm just gonna copy the devblog from the YouTube update (https://youtu.be/Zp4b3WNFaog)\n\nI also added a few QoL updates like the scope range of the sensors. Tho, due to how small the map is, it's mostly useless\n\nI modified the flight model to add more drag, but I think it is too excessive. I'll tweak it later\n\nI also found some documents regarding the M88 engine, so next update will be engine and fuel update\n\nAside from that, I also wanted to experiment with MFD pages. I'll add the SiTac (Situation Tactique) to the HLD also in the next update. It should be something cool\n\nNot only that, A-A missiles should also be worked upon. Well, more like general missiles since as seen in footages the AASM is really weird when firing lol. Missiles should now utilize actual wings to steer themselves. Sounds difficult but it'll be worth it\n\nUtilizing the new A-A missile, I'll make the SA-2 site come to live. I'll model the SNR-75 radar. And since there's a new Radar Emitter on the scene, I can now make a working RWR\n\nTL:DR; next update should be about SiTac, RWR, missile guidance rework, and a proper Snecma M88 engine and fuel system"]
 ];
 
 devlogCategories = ["Updates", "Development", "Website", "Plans", "Miscellaneous", "New Stuffs"];
