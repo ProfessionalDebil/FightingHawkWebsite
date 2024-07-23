@@ -9,7 +9,13 @@
         <link rel="stylesheet" href="assets/css/master.css">
         <link rel="icon" href="assets/images/favicon.png">
 		
-        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script> 
+            $(function(){
+              $("body").load("header.html"); 
+            });
+        </script> 
+        
 		<meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
         
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -23,14 +29,10 @@
         <meta property="og:description" content="description of your website/webpage"> <!--Description of website-->
         <meta property="og:image" content="assets/images/image_300x200.png" /> <!--Image for website, keep lower than 300kb, minimum 300x200-->
         <meta property="og:locale" content="en_GB"/> <!--Language, og:locale:alternate for other languages-->
-        <meta property="og:site_name" content="Factory Sim Web"> <!--Overall site name-->>
+        <meta property="og:site_name" content="Factory Sim Web"> <!--Overall site name-->
     </head>
     <body>	
-        <div class="navbar">
-            <a class="navbar-home" href="index.html"><img src="assets/images/favicon.png" title="Click to return to the main page" id="navbar-home-image"></a>
-            <a href="socials.html">Socials</a>
-            <a href="devlog.html">Devlog</a>
-        </div>
+        <div id="header"></div>
         
         <div class="contentroot">
             <p>This is the official website for the in development simulator game, Fighting Hawk (name is subject to change) made by ProfessionalDebil</p>
