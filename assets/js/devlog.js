@@ -10,10 +10,10 @@ var devlogCategory = params.fox; // kon kon
 
 let addedLogs = 0;
 
-var reversed = devlogData.reverse();
+//var reversed = devlogData.reverse();
 
 for (let log in devlogData) { 
-    let currentLog = reversed[log];
+    let currentLog = devlogData[log];
 
     if (devlogCategory != null && !currentLog[3].includes(Number(devlogCategory))) {
         continue;
@@ -24,7 +24,6 @@ for (let log in devlogData) {
     topPart.classList.add("toppart");
     let tagHolder = document.createElement("div");
     tagHolder.classList.add("tagholder");
-    
 
     for (let logIndex in currentLog[3]) {
         let logCategory = currentLog[3][logIndex];
@@ -43,9 +42,9 @@ for (let log in devlogData) {
     content.innerText = currentLog[4];
     caption.innerText = currentLog[5];
     
-    timestamp.classList.add("devlogtimestamp");
-    content.classList.add("devlogcontent");
-    caption.classList.add("devlogcaption");
+    timestamp.classList.add("devlogTimestamp");
+    content.classList.add("devlogContent");
+    caption.classList.add("devlogCaption");
     
     if (addedLogs % 2 == 0) {
         li.classList.add("devlogeven");
@@ -61,6 +60,15 @@ for (let log in devlogData) {
     li.appendChild(content);
     content.appendChild(caption);
     listhandler.appendChild(li);
+
+    if (currentLog[6] != null && currentLog[6] != []) {
+        for (let imgNumber in currentLog[6]) {
+            let image = document.createElement("img");
+            image.src = "assets/images/devlog/" + currentLog[6][imgNumber];
+            image.classList.add("devlogImage");
+            content.appendChild(image);
+        }
+    }
 
     addedLogs++;
 }
